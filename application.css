@@ -1,0 +1,62 @@
+body {
+  color: #5c5b5b;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #68798c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div a {
+  color: rgb(255, 255, 255);
+  padding: 18px;
+  white-space: pre;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+div a:hover {
+  color: rgb(199, 158, 82);
+}
+
+.logom,
+.logod {
+  padding: 10px 5px 5px 25px;
+  width: 100px;
+}
+
+header {
+  flex-direction: column;
+  display: flex;
+}
+
+.logod {
+  align-self: center;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #6a7b8b;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.social_icons {
+  padding: 18px;
+}
+
+footer p {
+}
+
+div img {
+  width: 25px;
+}
